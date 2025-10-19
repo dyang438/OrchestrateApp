@@ -1,0 +1,25 @@
+meta {
+  name: register
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8000/api/account/signup
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "username": "test123",
+    "password": "test123"
+  }
+}
+
+tests {
+  {
+    "username": "example1",
+    "password": "example2"
+  }
+}

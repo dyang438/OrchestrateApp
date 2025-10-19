@@ -1,0 +1,19 @@
+meta {
+  name: Comment
+  type: http
+  seq: 7
+}
+
+put {
+  url: http://localhost:8000/api/post/662ea7a79d04089ac5f47f83/comment
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "comment": "reply to second rahrah?",
+    "_replyId": "662f2cb47ff7b2df7ec496e1"
+  }
+  
+}

@@ -1,0 +1,101 @@
+.comment {
+  border-radius: 20px; /* Adjust the value to change the roundness of the corners */
+  background-color: rgba(244, 244, 244, 0.8); /* Adjust the alpha value (0.0 to 1.0) to change transparency */
+}
+
+.postText {
+  background-color: rgba(244, 244, 244, 0.8); /* Adjust the alpha value (0.0 to 1.0) to change transparency */
+  border-radius: 20px; /* Adjust the value to change the roundness of the corners */
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.commentContainer {
+  position: fixed;
+  width: 60%;
+  bottom: 10px;
+}
+
+#commentOnThisPost {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(194, 100, 53);
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 25px;
+  color: white;
+}
+
+#postCommentButton {
+  background-color: green;
+  border: 1px solid #ccc;
+  color: white;
+  width: 60%;
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#commentTextArea {
+  box-sizing: border-box; /* Include padding and border in element's total width and he ight */
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.postDetailContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#postSubjectBlurb {
+  background-color: rgba(244, 244, 244, 0.8);
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 35px;
+}
+
+#postTextBlurb {
+  background-color: rgba(244, 244, 244, 0.8);
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 25px;
+}
+
+#postAuthorBlurb {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 25px;
+}
+
+#padding {
+  padding: 120px;
+}

@@ -1,0 +1,41 @@
+.postList {
+  list-style-type: none; /* This removes the bullet points */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the list items */
+  width: 100%; /* This makes the post entry take up the full width */
+}
+
+.postContainer {
+  background-color: rgba(244, 244, 244, .8);
+  width: 100%; /* This makes the post entry take up the full width */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#singlePost {
+  position: relative;
+  width: 100%
+}
+
+#postSubject {
+  width: 100%; /* This makes the post entry take up the full width */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#postText {
+  background-color: rgba(244, 244, 244, 1);
+  color: rgba(0, 0, 0, .7);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%; /* This makes the post entry take up the full width */
+  font-size: 1.2rem;
+}
